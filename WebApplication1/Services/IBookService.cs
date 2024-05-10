@@ -6,6 +6,4 @@ public interface IBookService
 {
     public List<BookEditionDTO> Books(int BookId);
     public int AddBook(AddBookDTO addBookDto);
-
-
 }

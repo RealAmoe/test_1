@@ -3,11 +3,13 @@ using WebApplication1.Models;
 using WebApplication1.Services;
 
 namespace WebApplication1.Controllers;
+
 [ApiController]
 [Route("api/books")]
 public class BookController : ControllerBase
 {
     private IBookService _bookService;
+
     public BookController(IBookService bookService)
     {
         _bookService = bookService;

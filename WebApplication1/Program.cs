@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 
-builder.Services.AddScoped<IBookService, BookService>(); 
+builder.Services.AddScoped<IBookService, BookService>();
 
 var app = builder.Build();
 
